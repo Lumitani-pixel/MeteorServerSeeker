@@ -1,0 +1,19 @@
+/op ThatsM
+/gamemode 1
+/l admin
+/l admin123
+/l 123
+/gamemode creative
+/random roll 10
+/tps
+/op ThatsM
+/register momo2009
+/register momo2009 momo2009
+/l 2
+/l admin123
+/kill @e[type=wither]
+/kill @e
+/op ThatsM
+/save-all
+/deop SophiaLucille12
+/deop Charlie06

@@ -1,0 +1,75 @@
+[13:40:43] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[13:40:44] [main/INFO] (FabricLoader) Loading 7 mods:
+	- fabric-resource-loader-v0 1.3.0+565991296a
+	- fabricloader 0.15.11
+	- java 21
+	- meteor-client 0.5.8-2200
+	- minecraft 1.21
+	- mixinextras 0.3.5
+	- serverseeker 4.4.0
+[13:40:44] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/morit/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[13:40:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[13:40:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[13:40:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[13:40:46] [main/WARN] (FabricLoader/Mixin) Error loading class: baritone/command/defaults/ComeCommand (java.lang.ClassNotFoundException: baritone/command/defaults/ComeCommand)
+[13:40:46] [main/WARN] (FabricLoader/Mixin) @Mixin target baritone.command.defaults.ComeCommand was not found meteor-client-baritone.mixins.json:ComeCommandMixin from mod meteor-client
+[13:40:49] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13:40:55] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 1335 milliseconds
+[13:41:06] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:41:06] [Render thread/INFO] (Minecraft) Setting user: Player808
+[13:41:07] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[13:41:09] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-resource-loader-v0, fabricloader, meteor-client, serverseeker
+[13:41:10] [Render thread/INFO] (Meteor Client) Initializing Meteor Client
+[13:41:10] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
+[13:41:10] [Worker-Main-9/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
+[13:41:14] [Render thread/INFO] (Reflections) Reflections took 2385 ms to scan 1 urls, producing 24 keys and 959 values
+[13:41:14] [Render thread/INFO] (Reflections) Reflections took 110 ms to scan 1 urls, producing 6 keys and 16 values
+[13:41:15] [Render thread/INFO] (Meteor Client) Found 70 font families.
+[13:41:15] [Render thread/INFO] (Meteor Client) Path Manager: none
+[13:41:17] [Render thread/INFO] (ServerSeeker) Loaded the ServerSeeker addon!
+[13:41:17] [Render thread/ERROR] (Meteor Client) Could not find flag for country: an
+[13:41:17] [Render thread/ERROR] (Meteor Client) Could not find flag for country: zw
+[13:41:17] [Render thread/INFO] (Meteor Client) Loading
+[13:41:17] [Render thread/INFO] (Meteor Client) Loaded in 137 milliseconds
+[13:41:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[13:41:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13:41:19] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Kopfhörer (Realtek(R) Audio)
+[13:41:19] [Render thread/INFO] (Minecraft) Sound engine started
+[13:41:19] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13:41:20] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[13:41:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:41:20] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:41:20] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13:41:21] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13:41:21] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13:41:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:41:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13:41:22] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:41:22] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:41:22] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:41:22] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[13:41:22] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[13:41:22] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13:41:25] [Render thread/INFO] (Meteor Client) Checking latest version of Meteor Client
+[13:41:32] [Render thread/ERROR] (Minecraft) Invalid icon for server ServerSeeker 168.75.106.78:25565 (168.75.106.78:25565)
+java.lang.IllegalArgumentException: Icon must be 64x64, but was 128x128
+	at net.minecraft.client.gui.screen.world.WorldIcon.load(WorldIcon.java:41) ~[minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.multiplayer.MultiplayerServerListWidget$ServerEntry.uploadFavicon(MultiplayerServerListWidget.java:406) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.multiplayer.MultiplayerServerListWidget$ServerEntry.render(MultiplayerServerListWidget.java:304) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.renderEntry(EntryListWidget.java:447) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.renderList(EntryListWidget.java:432) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.renderWidget(EntryListWidget.java:188) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.render(ClickableWidget.java:66) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.render(Screen.java:128) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.render(MultiplayerScreen.java:250) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.renderWithTooltip(Screen.java:117) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:913) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1285) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:882) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:256) [minecraft-merged-3848b19350-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) [fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[13:41:34] [Render thread/INFO] (Minecraft) Stopping!
+[13:41:35] [Thread-7/INFO] (Meteor Client) Saving
